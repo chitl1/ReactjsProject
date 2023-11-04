@@ -16,9 +16,9 @@ function App() {
   }
   return (
     <div className="App">
-      <h1> { gift || "chua co phan thuwong"}</h1>
+      <h1> { gift || "Chưa có phần thưởng"}</h1>
       <button onClick={randomGift}>
-        lay thuong
+        Lấy thưởng
       </button>
     </div>
   );
