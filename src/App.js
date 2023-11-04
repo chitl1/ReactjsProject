@@ -2,11 +2,9 @@ import './App.css';
 import { useState } from 'react';
 
 const gifts = [
-  'keo',
-  'banh',
-  'nha',
-  'oto',
-  '1ty'
+  'NHÀ',
+  'Ô TÔ',
+  '10 TỶ'
 ]
 function App() {
   const [gift, setgift] = useState();
@@ -16,7 +14,7 @@ function App() {
   }
   return (
     <div className="App">
-      <h1> { gift || "Chưa có phần thưởng"}</h1>
+      <h1> { gift || "CHƯA CÓ PHẦN THƯỞNG"}</h1>
       <button onClick={randomGift}>
         Lấy thưởng
       </button>
