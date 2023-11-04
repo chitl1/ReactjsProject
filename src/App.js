@@ -1,23 +1,22 @@
 import './App.css';
-import { useState } from 'react';
-
-const gifts = [
-  'NHÀ',
-  'Ô TÔ',
-  '10 TỶ'
-]
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  Link,
+} from "react-router-dom";
 function App() {
-  const [gift, setgift] = useState();
-  const randomGift = () =>  {
-    const i = Math.floor(Math.random() * gifts.length)
-    setgift(gifts[i])
-  }
   return (
     <div className="App">
-      <h1> { gift || "CHƯA CÓ PHẦN THƯỞNG"}</h1>
-      <button onClick={randomGift}>
-        Lấy Thưởng
-      </button>
+      <h1>Hello World</h1>
+      <ul>
+        <li>
+        <Link to="randomapp">App random gift</Link>
+        </li>
+        <li>
+        <Link to="twowaybindingapp">Two-way binding</Link>
+        </li>
+      </ul>
     </div>
   );
 }
