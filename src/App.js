@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <h1> { gift || "CHƯA CÓ PHẦN THƯỞNG"}</h1>
       <button onClick={randomGift}>
-        Lấy thưởng
+        Lấy Thưởng
       </button>
     </div>
   );
