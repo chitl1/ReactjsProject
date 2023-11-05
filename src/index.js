@@ -12,6 +12,7 @@ import {
 import RandomGift from './page/random';
 import Binding from './page/binding';
 import TodoApp from './page/todo';
+import UseEffectHook from './page/useeffecthook';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path: "todoapp",
     element: <TodoApp/>,
+  },
+  {
+    path: "useeffecthook",
+    element: <UseEffectHook/>,
   },
 ]);
 

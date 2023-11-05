@@ -19,6 +19,9 @@ function App() {
         <li>
         <Link to="todoapp">To do list</Link>
         </li>
+        <li>
+        <Link to="useeffecthook">useEffect</Link>
+        </li>
       </ul>
     </div>
   );
