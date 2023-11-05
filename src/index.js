@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import RandomGift from './page/random';
 import Binding from './page/binding';
+import TodoApp from './page/todo';
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path: "twowaybindingapp",
     element: <Binding/>,
+  },
+  {
+    path: "todoapp",
+    element: <TodoApp/>,
   },
 ]);
 
