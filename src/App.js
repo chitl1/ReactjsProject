@@ -16,6 +16,9 @@ function App() {
         <li>
         <Link to="twowaybindingapp">Two-way binding</Link>
         </li>
+        <li>
+        <Link to="todoapp">To do list</Link>
+        </li>
       </ul>
     </div>
   );
